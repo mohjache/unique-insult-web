@@ -1,8 +1,12 @@
-function App() {
+import Home from "components/Home";
+
+const App: React.FC = () => {    
+
   return (
-    <div>
-      <h1>Welcome to Poo Puffin!</h1>
-    </div>    
+    <div className='app'>
+      <Home></Home>  
+    </div>
+    
   );
 }
 
