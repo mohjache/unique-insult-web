@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      <h2>Hello World!</h2>
+      <h2>Welcome to poo puffin</h2>
     </div>    
   );
 }
