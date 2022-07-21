@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import {createStyles, makeStyles} from '@mui/styles'
 import {Button, Typography} from '@mui/material'
+import {GetRandomInsult} from 'apiCalls/insultApiHelper'
 
 const useStyles = makeStyles(() =>
   createStyles({
@@ -32,8 +33,8 @@ const Home: React.FC = () => {
   const classes = useStyles()
 
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
-    
-    setCurrentInsult('Clicked')
+    var randomInsult = GetRandomInsult().data
+    setCurrentInsult(randomInsult)
   }
   return (
     <div className={classes.container}>
