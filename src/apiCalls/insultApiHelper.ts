@@ -1,4 +1,4 @@
-import {SAMPLE_DATA} from 'interfaces/insultDTO'
+import insults from 'sampledata.json'
 
 export const GetRandomInsult = () => {
   let insult = randomiseSampleInsult()
@@ -6,6 +6,6 @@ export const GetRandomInsult = () => {
 }
 
 let randomiseSampleInsult = (): string => {
-  let randomTestInsult = SAMPLE_DATA[Math.floor(Math.random() * SAMPLE_DATA.length)]
+  let randomTestInsult = insults[Math.floor(Math.random() * insults.length)]
   return randomTestInsult.pre + randomTestInsult.suff
 }
