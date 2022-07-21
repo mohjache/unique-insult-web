@@ -1,4 +1,4 @@
-import Home from 'components/Home'
+import Home from 'components/Home/Home'
 import {AppBar, Typography} from '@mui/material'
 import {createStyles, makeStyles} from '@mui/styles'
 
@@ -25,7 +25,7 @@ const App: React.FC = () => {
     <div className="app">
       <AppBar
         aria-label="menu"
-        sx={{bgcolor: '#4e4e4e', boxShadow: 'none'}}
+        sx={{bgcolor: 'rgba(10, 25, 41, 0.7)', boxShadow: 'none'}}
         position="fixed"
         className={classes.appBar}>
         <Typography variant="h4" className={classes.appBarTitle}>

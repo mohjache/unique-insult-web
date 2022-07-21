@@ -8,7 +8,7 @@
     --c-medium-light: #cbcbcb;
     --c-medium: #0000004d;
     --c-dark: #4e4e4e;
-    --c-medium-dark: #5b616b;
+    --c-medium-dark: rgba(10, 25, 41, 1);
     --c-text: #4e4e4e;   
     --c-error: #eb4840;
 }
