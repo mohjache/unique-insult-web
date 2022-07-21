@@ -16,7 +16,7 @@ const Home: React.FC = () => {
   const classes = useStyles()
   return (
     <div className={classes.container}>
-      <h1>Welcome to Poo Puffin</h1>
+      <h1>Welcome</h1>
     </div>
   )
 }

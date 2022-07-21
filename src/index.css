@@ -8,13 +8,14 @@
     --c-medium-light: #cbcbcb;
     --c-medium: #0000004d;
     --c-dark: #4e4e4e;
+    --c-medium-dark: #5b616b;
     --c-text: #4e4e4e;   
     --c-error: #eb4840;
 }
 
 body {
     margin: 0;
-    background: var(--c-dark);
+    background: var(--c-medium-dark);
     color: var(--c-light);
     
 }
