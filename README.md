@@ -4,12 +4,12 @@ Have you every wanted to call someone a name but you want an extra bit of spice 
 Use this website to generate a unique insult based on thousands of reddit comments.
 
 Live Website can be found at:
-https://poopuffin.netlify.app/
+<a href="https://poopuffin.netlify.app/
+" target="_blank">Poopuffin</a>
 
 Data is currently static from original github [here](https://github.com/colinmorris/pejorative-compounds)
 
 Website inspired by [Reddit Post](https://www.reddit.com/r/dataisbeautiful/comments/vmw0eu/oc_frequency_of_compound_insults_eg_poophead/)
-
 
 TODO:
 
